@@ -54,9 +54,7 @@ pip install langchain langchain-community langchain-huggingface langchain-chroma
 ## 📄 Sample Usage
 
 Ask a question (or 'exit'): What is the main topic of this document?
-
 🧠 Answer: The main topic of the document is...
----
 
 ## 🧠 Credits
 
