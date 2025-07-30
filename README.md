@@ -32,4 +32,21 @@ This notebook lets you **upload any PDF**, ask questions about its content, and 
 
 1. **Set up Ollama** on your local machine:  
    Follow instructions at: [https://ollama.com](https://ollama.com)  
-   Ensure the model `llama3:8b` is pulled using:  
+   Ensure the model `llama3:8b` is pulled using:
+   ollama pull llama3:8b
+   
+2. **Open the notebook in Google Colab**
+
+3. **Upload your PDF** when prompted
+
+4. Ask questions directly in the cell input — type `"exit"` to stop
+
+---
+
+## 📦 Installation Requirements
+
+This notebook assumes the following Python packages are available:
+
+```bash
+pip install langchain langchain-community langchain-huggingface langchain-chroma ollama tqdm
+
