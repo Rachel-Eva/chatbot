@@ -49,4 +49,19 @@ This notebook assumes the following Python packages are available:
 
 ```bash
 pip install langchain langchain-community langchain-huggingface langchain-chroma ollama tqdm
+```
 
+## 📄 Sample Usage
+
+Ask a question (or 'exit'): What is the main topic of this document?
+
+🧠 Answer: The main topic of the document is...
+---
+
+## 🧠 Credits
+
+Built using:
+- [LangChain](https://www.langchain.com/)
+- [Ollama](https://ollama.com/)
+- [Hugging Face Embeddings](https://huggingface.co/)
+- [Chroma](https://www.trychroma.com/)
